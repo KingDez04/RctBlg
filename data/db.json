@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "id": "5828",
+      "title": "Blog Developer",
+      "body": "A third year computer science student at Babcock University and a software engineering student at the ALX SE program.",
+      "author": "Ademola Ademeso"
+    },
+    {
+      "id": "5684",
+      "title": "JSON server & Concurrently",
+      "body": "This is a react web app where by the Vite development server is integrated with JSON server on port 8000 to run concurrently and to fetch data from JSON server. This setup allows us to use JSON server to mock the backend API for the front-end development.",
+      "author": "Ademola Ademeso"
+    }
+  ]
+}
