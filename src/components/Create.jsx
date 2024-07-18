@@ -14,9 +14,9 @@ const Create = () => {
 
         setIsPending(true);
 
-        fetch('http://localhost:8000/blogs', {
+        fetch('https://my-json-server.typicode.com/KingDez04/db/blogs', {
             method: 'POST',
-            headers: { "content-Type": "application/json" },
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog)
         }).then(() => {
             console.log("Added");
